@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content title="Price-list Converter (C#)">
+	<text>
+  		<p><![CDATA[Программа предназначена для создания прайс-листов и файлов специального формата (для загрузки в <a href="#p/5">интернет-магазин</a>) на основе прайс-листов поставщиков товаров.]]></p>
+		<p>Для анализа различных типов прайс-лисов используются разные плагины что позволяет быстро адаптировать программу к изменившемуся (или новому) формату исходного прайс-листа. Также плагины могут содержать некоторую специфичную функциональность например изменение цены или исключение товаров по различным признакам.</p>
+		<p>После открытия исходного прайс-листа программа предоставляет возможность пред просмотра содержимого итоговых файлов и их сохранения. Файл предназначенный для загрузки в интернет магазин может быть сохранён упакованным в архив.</p>
+	</text>
+	<features>
+		<group title="Основные характеристики проекта" type="listKV">
+			<feature title="Язык разработки" value="C# 4.0"/>
+			<feature title="Среда разработки" value="Microsoft Visual Studio 2010 Express"/>
+			<feature title="Время разработки" value="2-3 недели (после основной работы)"/>
+			<feature title="Начало разработки" value="осень 2010"/>
+			<feature title="Всего строк кода (с плагинами)" value="приблизительно 1500"/>
+		</group>	
+		<group title="Некоторые технические подробности реализации (использованные технологии, решения, etc.)" type="list">
+			<feature title="Работа с xls файлами с помощью OLEDB" value=""/>
+			<feature title="Расширение функциональности при помощи плагинов" value=""/>
+			<feature title="Программное архивирование файлов и работа с xml средствами языка" value=""/>
+			<feature title="Интерфейс пользователя реализован с использованием библиотеки DockPanel Suite (WeifenLuo)" value=""/>
+		</group>
+		<group title="Дополнительно" type="text">
+			<feature title="Для работы программы необходимы операционная система Windows XP или старше с установленными .NET Framework 4.0 и Microsoft Access Database Engine 2010 Redistributable." value=""/>
+		</group>
+	</features>
+	<images>
+		<topimage mini="mini/open_price.jpg" full="full/open_price.png" height="133" width="200"/>
+		<set title="">
+			<group title="Скриншоты" height="133" width="200">
+				<image mini="mini/all.jpg" full="full/all.png" title=""/>
+				<image mini="mini/open_price.jpg" full="full/open_price.png" title=""/>
+				<image mini="mini/preview_xls.jpg" full="full/preview_xls.png" title=""/>
+				<image mini="mini/preview_xml.jpg" full="full/preview_xml.png" title=""/>
+				<image mini="mini/price.jpg" full="full/price.png" title=""/>
+				<image mini="mini/start.jpg" full="full/start.png" title=""/>
+			</group>
+		</set>
+	</images>
+</content>

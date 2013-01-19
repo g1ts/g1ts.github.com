@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content title="Сайт-визитка (этот сайт) (HTML, CSS, JavaScript, jQuery)">
+	<text>
+		<p>Сайт разработан для представления информации обо мне и моих работах потенциальным работодателям</p>
+		<p>Сайт выполняется в браузере пользователя и не требует поддержки языков программирования на стороне сервера.
+		При перемещениях пользователя по сайту страницы не перезагружается а динамически формируется при этом необходимые данные при помощи технологии AJAX подгружаются с сервера что позволяет значительно ускорить их отображение.
+		</p>
+	</text>
+	<features>
+		<group title="Общие сведения" type="listKV">
+			<feature title="Год" value="2011"/>
+			<feature title="Длительность разработки" value="1.5-2 мес. в свободное время после работы"/>
+			<feature title="Всего строк кода" value="около 1000"/>
+		</group>
+		<group title="Некоторые возможности и особенности" type="list">
+			<feature title="" value="Показ миниатюр в слайдере с возможностью прокрутки"/>
+			<feature title="" value="Полные версии изображений показываются при помощи jQuery lightBox plugin"/>
+			<feature title="" value="Возможность вставки видео с YouTube"/>
+			<feature title="" value="Отрывающиеся при прокрутке меню и боковая панель"/>
+			<feature title="" value="Спойлеры"/>
+		</group>	
+		<group title="Языки и технологии" type="list">
+			<feature title="" value="HTML"/>
+			<feature title="" value="JavaScript (jQuery)"/>
+			<feature title="" value="CSS"/>
+		</group>
+	</features>
+	<images>
+		<topimage mini="mini.jpg" full="full.jpg"/>
+	</images>
+</content>

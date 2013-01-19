@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content title="Система автоматизации проведения аттестации студентов (C#)">
+	<text>
+		<p>
+		Система автоматизации проведения аттестации студентов. Позволяет управлять данными необходимыми для проведения аттестации, формировать бланки контроля, учитывать результаты и создавать на их основе отчёты.
+		</p>
+	</text>
+	<features>
+		<group title="Основные характеристики проекта" type="listKV">
+			<feature title="Язык разработки" value="C# 3.5"/>
+			<feature title="Среда разработки" value="Microsoft Visual Studio 2008 Express"/>
+			<feature title="Время разработки" value="Продолжительность: 2-3 месяца"/>
+			<feature title="Начало разработки" value="осень 2009"/>
+			<feature title="Всего строк кода" value="около 10000 (в т.ч. описания форм)"/>
+		</group>	
+		<group title="Некоторые использованные технологии, решения, etc." type="list">
+			<feature title="WinForms" value=""/>
+			<feature title="SQLite" value=""/>
+			<feature title="XML" value=""/>
+			<feature title="XSLT" value=""/>
+			<feature title="HTML" value=""/>
+			<feature title="CSS" value=""/>
+		</group>
+	</features>
+	<images>
+		<topimage mini="mini.jpg" full="full.png" height="133" width="200"/>
+		<set title="Скриншоты">
+			<group title="Управление данными" height="142" width="200">
+				<image mini="mini/sourceData/1.jpg" full="full/sourceData/1.png" title=""/>
+				<image mini="mini/sourceData/2.jpg" full="full/sourceData/2.png" title=""/>
+				<image mini="mini/sourceData/3.jpg" full="full/sourceData/3.png" title=""/>
+				<image mini="mini/sourceData/4.jpg" full="full/sourceData/4.png" title=""/>
+				<image mini="mini/att_resAtt.jpg" full="full/att_resAtt.png" title=""/>
+				<image mini="mini/settings.jpg" full="full/settings.png" title=""/>
+			</group>
+			<group title="Окна для работы с бланками и отчётами" height="142" width="200">
+				<image mini="mini/printBl/1.jpg" full="full/printBl/1.png" title=""/>
+				<image mini="mini/printBl/2.jpg" full="full/printBl/2.png" title=""/>
+				<image mini="mini/printOtch/1.jpg" full="full/printOtch/1.png" title=""/>
+				<image mini="mini/printOtch/2.jpg" full="full/printOtch/2.png" title=""/>
+				<image mini="mini/printOtch/3.jpg" full="full/printOtch/3.png" title=""/>
+			</group>
+			<group title="Работа с архивом" height="142" width="200">
+				<image mini="mini/ark/1.jpg" full="full/ark/1.png" title=""/>
+				<image mini="mini/ark/2.jpg" full="full/ark/2.png" title=""/>
+				<image mini="mini/ark/3.jpg" full="full/ark/3.png" title=""/>
+				<image mini="mini/ark/4.jpg" full="full/ark/4.png" title=""/>
+				<image mini="mini/ark/5.jpg" full="full/ark/5.png" title=""/>
+				<image mini="mini/ark/6.jpg" full="full/ark/6.png" title=""/>
+			</group>
+			<group title="Меню" height="300" width="200">
+				<image mini="mini/menus_all.jpg" full="full/menus_all.png" title=""/>
+			</group>
+		</set>
+	</images>
+	<!-- 
+	<videos>
+		<group title="Инструкции для пользователей">
+			<video type="youtube" vid="ylLzyHk54Z0"/>
+		</group>
+		<group title="Инструкции для администратора">
+			<video type="youtube" vid="ylLzyHk54Z0"/>
+		</group>
+	</videos>
+	<links>
+		<group title="Видео">
+			<link title="Видео 1" href="ссылка1.avi"/>
+			<link title="Видео 2" href="ссылка2.avi"/>
+			<link title="Полный архив с видео" href="ссылка_full.zip"/>
+		</group>
+		<group title="Файлы">
+			<link title="Дистрибутив" href="ссылка.zip"/>
+			<link title="Исходники" href="ссылка_src.zip"/>
+		</group>
+	</links>
+	 -->
+</content>

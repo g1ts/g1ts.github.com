@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content title="Диплом 'Научного исследовательского ядерного университета 'МИФИ'">
+	<text>
+		<p><![CDATA[
+			<b>Университет:</b> Национальный исследовательский ядерный университет "МИФИ"
+			<br/><b>Дата окончания:</b> 20 июня 2010
+			<br/><b>Квалификация:</b> Инженер
+			<br/><b>Специальность:</b> Вычислительные машины, комплексы, системы и сети
+		]]></p>
+	</text>
+	<features>
+		<group title="Список дисциплин" type="list">
+			<feature title="" value="">Иностранный язык</feature>
+			<feature title="" value="">Отечественная история</feature>
+			<feature title="" value="">Культурология</feature>
+			<feature title="" value="">Политология</feature>
+			<feature title="" value="">Философия</feature>
+			<feature title="" value="">Экономика</feature>
+			<feature title="" value="">Математика (алгебра и геометрия, матанализ, дискретная математика, мат. логика и теория алгоритмов, вычислительная математика, теор. вер.)</feature>
+			<feature title="" value="">Информатика</feature>
+			<feature title="" value="">Физика</feature>
+			<feature title="" value="">Экология</feature>
+			<feature title="" value="">Начертательная геометрия (инженерная графика, компьютерная графика)</feature>
+			<feature title="" value="">Электротехника и электроника</feature>
+			<feature title="" value="">Метрология, стандартизация и сертификация</feature>
+			<feature title="" value="">Безопасность жизнедеятельности</feature>
+			<feature title="" value="">Организация и планирование производства</feature>
+			<feature title="" value="">Программирование на яз. ву.</feature>
+			<feature title="" value="">Основы теории управления</feature>
+			<feature title="" value="">Организация ЭВМ и систем</feature>
+			<feature title="" value="">Операционные системы</feature>
+			<feature title="" value="">Базы данных</feature>
+			<feature title="" value="">Сети ЭВМ и телекоммуникации</feature>
+			<feature title="" value="">Методы и средства защиты компьютерной информации</feature>
+			<feature title="" value="">Теория автоматов</feature>
+			<feature title="" value="">Моделирование</feature>
+			<feature title="" value="">Схемотехника ЭВМ</feature>
+			<feature title="" value="">Конструкторско-технологическое обеспечение производства ЭВМ</feature>
+			<feature title="" value="">Системное программное обеспечение</feature>
+			<feature title="" value="">Интерфейсы периферийных устройств</feature>
+			<feature title="" value="">Микропроцессорные системы</feature>
+			<feature title="" value="">Технология программирования</feature>
+			<feature title="" value="">Объектно ориентированное программирование</feature>
+			<feature title="" value="">Интернет-технологии</feature>
+			<feature title="" value="">Периферийные устройства</feature>
+			<feature title="" value="">Автоматизация измерений</feature>
+			<feature title="" value="">Правоведение</feature>
+			<feature title="" value="">Психология и педагогика</feature>
+			<feature title="" value="">Русский язык и культура речи</feature>
+			<feature title="" value="">Основы физ. измерений</feature>
+			<feature title="" value="">Избранные главы физики</feature>
+			<feature title="" value="">САПР РЭА</feature>
+			<feature title="" value="">Социология</feature>
+			<feature title="" value="">Основы менеджмента</feature>
+			<feature title="" value="">Психология управленческого труда</feature>
+			<feature title="" value="">Экономика отрасли</feature>
+			<feature title="" value="">Комплекс стандартов АС</feature>
+			<feature title="" value="">Дополнительные главы электроники</feature>
+		</group>	
+	</features>
+	<images>
+		<topimage mini="mini.jpg" full="full.jpg"/>
+	</images>
+</content>

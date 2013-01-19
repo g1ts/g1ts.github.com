@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+
+ .line_div{
+ 	/*float: left;*/
+ 	width: 100%;
+	border: solid 1px black;
+}
+
+.loading{
+	background: url(../pic/lb/lightbox-ico-loading.gif) no-repeat center center;
+	
+}
+
+#footer1{
+	border: solid 1px black;
+	width: 800px;
+	height: 200px;
+}

@@ -1,0 +1,61 @@
+body {
+	background: #dddddd;
+	font-size: 12px;
+	font-family: arial,sans-serif;
+}
+
+.spoiler_head {
+	font-weight: bold;
+}
+
+.spoiler_wrap {
+	margin: 10px 0 0 15px;
+}
+
+.featureText {
+	margin: 5px;
+}
+a > img {
+	border-width: 0;
+}
+.proj_title_img{
+	margin:0 10px 10px 0;
+	float: left;
+}
+
+.features_div {
+	clear: both;
+}
+
+/*************
+** Hide
+**************
+*/
+
+.carouselBtns{
+	display: none;
+}
+
+.hbtns {
+	display: none;
+}
+
+.printBtn {
+	display: none;
+}
+
+.spoiler_head_hide {
+	display: none;
+}
+
+#carouses_div {
+	display: none;
+}
+
+#utvideos {
+	display: none;
+}
+
+a#modal-mailme {
+	display: none;
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content data_addr="../../data/">
+	<section id="5" title="Главная" type="post">
+		<post id="15" title="Главная" dir="pages/main/" xmlcontent="data.xml">
+		</post>
+	</section>
+	<section id="1" title="Проекты" submenu="true">
+		<post id="16" title="Перевод сайтов на CMS WordPress" dir="pages/projects/pti/" xmlcontent="data.xml?v=2">
+			<tizer title="Перевод сайтов с самописной CMS на CMS WordPress">
+				<image mini="mini.jpg" full="full.png" height="135" width="200"/>
+				<text>Перевод сайта с самописной CMS на CMS WordPress
+				</text>
+			</tizer>
+		</post>
+		<post id="1" title="PlC" dir="pages/projects/plc_page/" xmlcontent="data.xml">
+			<tizer title="PlC">
+				<image mini="mini.jpg" full="full.png" height="133" width="200"/>
+				<text><![CDATA[Программа для создания прайс-листов и файлов специального формата (для загрузки в <a href="#p/5">интернет-магазин</a>) на основе прайс-листов поставщиков товаров.]]></text>
+			</tizer>
+		</post>
+		<post id="2" title="АСУРАС" dir="pages/projects/asuras/" xmlcontent="data.xml">
+			<tizer title="АСУРАС">
+				<image mini="mini.jpg" full="full.png"/>
+				<text>Система автоматизации проведения аттестации студентов. Позволяет управлять данными необходимыми для проведения аттестации, формировать бланки контроля, учитывать результаты и создавать на их основе отчёты.</text>
+			</tizer>
+		</post>
+		<post id="3" title="АСПЗ" dir="pages/projects/aspz/" xmlcontent="data.xml">
+			<tizer title="АСПЗ">
+				<image mini="mini.jpg" full="full.png"/>
+				<text>Автоматизированная система тестирования. Позволяет управлять тестовыми материалами и вспомогательными данными необходимыми для проведения тестирований, организовывать и проводить тестирования и на основе их результатов формировать отчёты.</text>
+			</tizer>
+		</post>
+		<post id="5" title="Интернет-магазин/визитка + модули" dir="pages/projects/shop1/" xmlcontent="data.xml">
+			<tizer title="Интернет-магазин/визитка + модули">
+				<image mini="mini.jpg" full="full.png" height="148" width="200"/>
+				<text>
+					<![CDATA[Интернет-магазин/визитка компании «Алгоритм».<br/>Сайт работает под управлением CMS (CMF) Drupal, магазин реализован на основе модуля Ubercart. Для импорта списка товаров (изначально выгружаемого из 1С в последствии формируемого программой <a href="#p/1">PlC</a>) в магазин был разработан модуль импорта. Также для сайта мной были созданы простая система управления заявками на выполнение работ, несколько не сложных модулей и темизаций.]]>
+				</text>
+			</tizer>
+		</post>
+		<post id="4" title="Сайт-визитка" dir="pages/projects/this/" xmlcontent="data.xml">
+			<tizer title="Сайта-визитка (этот сайт)">
+				<image mini="mini.jpg" full="full.jpg" height="150" width="200"/>
+				<text>Сайт для представления информации обо мне и моих работах потенциальным работодателям.</text>
+			</tizer>
+		</post>
+	</section>
+	<section id="2" title="Резюме" type="post">
+		<post id="7" title="Резюме" dir="pages/resume/" xmlcontent="data.xml">
+		</post>
+	</section>
+	<section id="3" title="Документы" submenu="true">
+		<post id="8" title="Диплом НИЯУ МИФИ" dir="pages/docs/diplvuz/" xmlcontent="data.xml">
+			<tizer title="Диплом 'Научного исследовательского ядерного университета 'МИФИ'">
+				<image mini="mini.jpg" full="full.jpg"/>
+				<text><![CDATA[
+<b>Университет:</b> Национальный исследовательский ядерный университет "МИФИ"
+<br/><b>Дата окончания:</b> 20 июня 2010
+<br/><b>Квалификация:</b> Инженер
+<br/><b>Специальность:</b> Вычислительные машины, комплексы, системы и сети
+				]]></text>
+			</tizer>
+		</post>
+		<post id="9" title='Intuit - Программирование на Java' dir="pages/docs/intuit/javapl/" xmlcontent="data.xml">
+			<tizer title="Удостоверение по программе 'Программирование на Java' (www.intuit.ru)">
+				<image mini="mini_cert_ru.jpg" full="cert_ru.jpg"/>
+				<text><![CDATA[
+<b>Курс:</b> <a href="http://www.intuit.ru/department/pl/javapl/">"Программирование на Java"</a>
+<br/><b>Автор:</b> Н.А. Вязовик 
+<br/><b>Срок обучения:</b> 05.12.2010 - 25.01.2011
+<br/>
+<br/>Курс лекций посвящен современному и мощному языку программирования Java. В его рамках дается вводное изложение принципов ООП, необходимое для разработки на Java, основы языка, библиотеки для работы с файлами, сетью, для построения оконного интерфейса пользователя (GUI) и др.
+				]]></text>
+			</tizer>
+		</post>
+		<post id="10" title='Intuit - Язык программирования PHP' dir="pages/docs/intuit/plphp/" xmlcontent="data.xml">
+			<tizer title="Удостоверение по программе 'Язык программирования PHP' (www.intuit.ru)">
+				<image mini="mini_cert_ru.jpg" full="cert_ru.jpg"/>
+				<text><![CDATA[
+<b>Курс:</b> <a href="http://www.intuit.ru/department/pl/plphp/">"Язык программирования PHP"</a>
+<br/><b>Автор:</b> Н.В. Савельева 
+<br/>
+<br/>PHP, в настоящее время, – один из наиболее популярных языков для реализации веб-приложений. Данный курс посвящен изучению его основ. Акцент делается на практическое применение полученных навыков. 
+				]]></text>
+			</tizer>
+		</post>
+		<post id="11" title='Intuit - Основы PHP5' dir="pages/docs/intuit/php5/" xmlcontent="data.xml">
+			<tizer title="Удостоверение по программе 'Основы прог-я на PHP5' (www.intuit.ru)">
+				<image mini="mini_cert_ru.jpg" full="cert_ru.jpg"/>
+				<text><![CDATA[
+<b>Курс:</b> <a href="http://www.intuit.ru/department/pl/php5/">"Введение в программирование на PHP5"</a>
+<br/><b>Автор:</b> К.С. Флойд
+<br/><b>Срок обучения:</b> 29.01.2011 - 16.02.2011
+				]]></text>
+			</tizer>
+		</post>
+		<post id="12" title='Intuit - Основы работы с HTML' dir="pages/docs/intuit/htmlbasics/" xmlcontent="data.xml">
+			<tizer title="Удостоверение по программе 'Основы работы с HTML' (www.intuit.ru)">
+				<image mini="mini_cert_ru.jpg" full="cert_ru.jpg"/>
+				<text><![CDATA[
+<b>Курс:</b> <a href="http://www.intuit.ru/department/internet/htmlbasics/">"Основы работы с HTML"</a>
+<br/><b>Срок обучения:</b> 30.01.2011 - 08.02.2011
+<br/>
+<br/>Курс посвящен практике применения языка гипертекстовой разметки HTML.
+<br/>На большом количестве примеров рассматриваются основные конструкции языка, приемы разметки и связь с другими инструментами разработки WEB-страниц.
+				]]></text>
+			</tizer>
+		</post>
+		<post id="13" title='Intuit - Введение в HTML' dir="pages/docs/intuit/htmlintro/" xmlcontent="data.xml">
+			<tizer title="Удостоверение по программе 'Введение в HTML' (www.intuit.ru)">
+				<image mini="mini_cert_ru.jpg" full="cert_ru.jpg"/>
+				<text><![CDATA[
+<b>Курс:</b> <a href="http://www.intuit.ru/department/internet/htmlintro/">"Введение в HTML"</a>
+<br/><b>Авторы:</b> П.Б. Храмцов, С.А. Брик, А.М. Русак, А.И. Сурин
+<br/><b>Срок обучения:</b> 23.01.2011 - 02.02.2011
+<br/>
+<br/>Курс посвящен изучению языка гипертекстовой разметки HTML.
+<br/>Рассматриваются основные конструкции языка, приемы разметки и связь с другими инструментами разработки WEB-страниц.
+				]]></text>
+			</tizer>
+		</post>
+	</section>
+</content>

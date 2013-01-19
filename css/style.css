@@ -1,0 +1,659 @@
+@CHARSET "UTF-8";
+
+html {
+	height: 100%;
+	/*
+	overflow: scroll;
+	*/
+}
+
+a {
+	cursor: pointer;
+}
+
+
+body {
+	min-height:100%;
+	height:100%; 
+	background: #dddddd;
+	margin: 0px;
+	font-size: 12px;
+	font-family: arial,sans-serif;
+}
+
+.error_div{
+	width: 100%;
+	text-align: center;
+	font-size: xx-large;
+}
+
+#error_test{
+
+}
+
+#body{
+	margin: auto;
+	
+	/*----------------------- 100% высоты контейнера относительно клиентской области и контента для IE, FF, Opera */
+	height: auto !important;
+	min-height:100%;
+	height: 100%;
+	/*-----------------------*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+	background: none;
+	color: black;
+	margin: 3px;
+	padding-bottom: 0,17em;
+	padding-top: 0,5em;
+}
+
+h1 {
+font: normal normal normal 1.8em/normal Georgia, Times, serif;
+}
+
+#header {
+	overflow: hidden;
+	background: #000000;
+	color: #656565;
+	margin: 0px;
+	padding: 10px 0px;
+	width: 100%;
+	/*height: 45px;*/
+	/*height: 65px;*/
+	height: 100px;
+	/*position: absolute;*/
+	top: 0px;
+}
+
+#top_logo {
+	padding: 10px 10px;
+	font-size: xx-large;
+	color: #656565;
+}
+
+#fcwrapper{
+	/*padding: 5px;*/
+	height: 110px;
+	background-color: black;
+	overflow: hidden;
+}
+#headControlPanel img{
+	color: gray;
+	font-size: 10px;
+	cursor: pointer;
+	opacity: 0.3;
+	/*margin: 5px;*/
+}
+
+#fcon{
+	padding: 5px 0 5px 5px;
+	position: relative;
+	color: lawnGreen;
+	font-family: monospace;
+	font-size: 16px;
+}
+
+#ccursor{
+	background-color: lawnGreen;
+	font-family: monospace;
+	font-size: 15px;
+}
+
+#head-bar {
+	color: #000000;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	/*position: fixed;*/
+	position: absolute;
+	/*top: 60px;*/
+	top: 115px;
+	z-index: 10;
+}
+
+#top_menu {
+	background: #565766;
+}
+
+#top_menu_shadow {
+	float: left;
+	width: 100%;
+	height: 7px;
+	background: url('../pic/shadow/b.png') repeat-x;
+}
+
+#hmenu {
+	width: 100%;
+}
+
+ul.cssmenu {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   width: auto;
+} 
+
+ul.cssmenu li {
+
+} 
+
+ul.cssmenu li a, ul.cssmenu li a:visited {
+   display: block;
+   padding: 0px 5px;
+   margin-bottom: 2px;
+   color: #ddd;
+   background-color: #565766;
+   border-top: 1px solid #222; 
+   border-bottom: 1px solid #aaa;
+}
+
+ul.cssmenu li a:hover {
+   color: #fff;
+   background-color: #444;
+   border-top: 1px solid #000; 
+   border-bottom: 1px solid #999; 
+}
+
+#menufluid {
+	width: 95%; /* 942px magic number :) */
+	margin: 0px auto;
+}
+
+
+#content {
+	width: 100%; 
+	/*margin: 5px auto;*/
+	/*min-height: 600px;*/
+}
+
+
+/*#fluid {	margin: 25px 0px;}*/
+
+#sidebar_right {
+	/*float: left;*/
+	/*margin: 0px 0px 30px;*/
+	width: 300px;
+	/*position: fixed;*/
+	position: absolute;
+	/*top: 120px;*/
+	top: 170px;
+	right: 20px;
+}
+
+#sidebar_right_menu1 {
+	margin: 10px 0px;
+	padding: 10px;
+	background: #949494;
+}
+
+#sidebar_right_menu1_head{
+	cursor: pointer;
+}
+
+#main {
+	margin: 0px;
+	padding: 30px 330px 60px 20px;
+	min-height: 200px;
+}
+
+#main_data {
+	margin: 10px;
+	min-width: 500px;
+}
+
+#main_data_header {
+	margin: 5px;
+}
+/*
+#tizer {
+	margin: 10px;
+	background: #949494;
+}
+*/
+.tizer_header {
+	padding: 0px 10px 3px;
+	color: #DEDEDE;
+}
+
+.tizer_header a{
+	color: black;
+	text-decoration: none;
+}
+
+.tizer_header h3{
+	padding: 0px;
+	margin: 0px;
+}
+
+.tizer_body {
+	padding: 15px;
+	background: #eeeeee;
+	border-top: 1px solid #777;
+	border-bottom: 1px solid #fff;
+	border-left:  1px solid #fff;
+	border-right:  1px solid #fff;
+	min-height: 50px;
+	overflow: hidden;
+}
+
+.tizer_body a {
+	text-decoration: underline;
+	color: blue;
+}
+a.more{
+	display: block;
+	float: right;
+	margin: 10px;
+}
+
+p.featureText {
+	margin: 10px 5px 10px 15px;
+}
+
+#gallery {
+	
+}
+
+.proj_title_img {
+	border-width: 0;
+	float: left;
+	margin: 0px 15px 10px 0px;
+	/*width: 100px;
+	height: 100px;*/
+	border: 1px solid #999;
+}
+
+.project_info .proj_title_img {
+	margin: 10px 15px 10px 0px;
+}
+
+.proj_gal_img {
+	border: 1px solid #999;
+}
+
+#sidebar_right_menu1_body {
+	padding: 15px;
+	background: #eeeeee;
+}
+
+.left_menu a {
+	display: block;
+	color: #FFFFFF;
+	font: bold 12px/22px Verdana, Arial;
+	text-decoration: none;
+}
+
+#main .rounded{
+	background-color:#949494;
+	padding: 5px;
+	margin: 0px;
+}
+
+.rounded:before{
+	display: block;
+	height: 4px;
+	background: url('../pic/rounded/tr_5.gif') no-repeat 100% 0;
+	content: url('../pic/rounded/tl_5.gif');
+	margin: -5px -5px 1px -5px;
+}
+
+#content .rounded:after{
+	display: block;
+	height: 4px;
+	background: url('../pic/rounded/br_4.gif') no-repeat 100% 0;
+	content: url('../pic/rounded/bl_4.gif');
+	margin: 1px -5px -5px -5px;
+}
+
+.rounded_bottom {
+	height: 8px;
+    margin: 0px 0px 10px;
+}
+
+.left_bottom_rounded {
+	width: 4px;
+	height: 100%;
+	float: left;
+	background:url('../pic/rounded/bl_4_s.png');
+}
+
+.fill_bottom_rounded {
+	width: 292px; 
+	height: 100%;
+	float: left;
+	background:url('../pic/rounded/b_4_s.png') repeat-x;
+}
+
+.right_bottom_rounded {
+	width: 4px;
+	height: 100%;
+	float: left;
+	background:url('../pic/rounded/br_4_s.png');
+}
+
+#sidebar_right .rounded{
+	background-color:#949494;
+	padding: 5px 5px 1px;
+	margin: 0px;
+}
+
+.loading{
+	
+	background: url(../pic/lb/ajax-loader.gif) no-repeat center center;
+	/*
+	filter: alpha(opacity=50);-moz-opacity: 0.5; opacity: 0.5;
+	background-color: #000000;
+	*/ 
+}
+
+#footer_guarantor {
+height: 40px;
+clear: both;
+}
+
+#footer {
+	/*position: absolute;*/
+	margin: auto;
+	margin-top: -40px;
+	bottom: 0px;
+	width: 100%;
+	height: 40px;
+	float: left;
+	background: #000000;
+	/*margin: 0px;*/
+	clear: both;	
+}
+
+#footer div{
+	float: right;
+	color: #656565;
+	font-weight: bold;
+	font-size: small;
+	padding: 8px 20px;
+}
+
+#footer a{
+	color: gray;
+	text-decoration: none;
+}
+
+
+
+.myjCarousel_wrap{
+	overflow: hidden;
+	width: 100%;
+}
+
+.clear{
+	clear: both;
+	font-size: 0;
+	line-height: 0;
+}
+
+.myjCarousel_img {
+	float: left;
+	margin: 5px;
+	height: auto;
+	width: auto;
+	max-height: 120px;
+	border: 1px solid #999;
+}
+li.carousel_item{
+	vertical-align: middle;
+	text-align:center;
+}
+
+.jcl_c_h{
+	padding: 5px 10px 5px 5px;
+}
+
+/* ==============
+==== spoiler ====
+=================*/
+
+.spoiler_wrap, .spoiler_head, .spoiler_body{
+	border: solid #C3CBD1;
+	clear: both;
+} 
+
+.spoiler_wrap{
+	background-color: #E9E9E6;
+	border-width: 1px;
+	width: 98%;
+	margin: 8px auto;
+	padding: 0;
+}
+
+.spoiler_head{
+	background: transparent url('../pic/spoiler/002.png') no-repeat left center;
+	border-width: 0;
+	font-size: 12px;
+	padding: 1px 20px 3px;
+	margin-left: 6px;
+	line-height: 16px;
+	font-weight: bold;
+	color: #2A2A2A;
+	cursor: pointer;
+}
+
+.spoiler_body{
+	background-color: #f5f5f5;
+	padding: 5px;
+	border-width: 1px 0 0 0;
+}
+
+.spoiler_head_hide{
+	background: transparent url('../pic/spoiler/001.png') no-repeat left center;
+}
+
+.spoiler_body_hide{
+	display: none;
+}
+
+.hbtns{
+	float: right;
+}
+.hbtns > img{
+	margin: 0 3px;
+	cursor: pointer;
+}
+
+.opacityOnOver{
+	opacity: 0.6;
+}
+
+/* ===============
+==== /spoiler ====
+==================*/
+
+/* ============
+==== video ====
+===============*/
+
+.youtubePlayerDiv{
+	margin: 0 auto;
+}
+
+/* =============
+==== /video ====
+================*/
+
+
+
+/* =============
+===== menu =====
+================*/
+ul#hmenu {
+	margin: 0;
+	border: 0 none;
+	padding: 0;
+  	list-style: none;
+	background: #565766;
+  	height: 28px;
+	font: bold 12px/28px Verdana, Arial;
+}
+
+ul#hmenu li {
+	margin: 0;
+	border: 0 none;
+	padding: 0;
+	float: left;
+	display: inline;
+	list-style: none;
+	position: relative;
+	height: 28px;
+	min-width: 120px
+}
+
+ul#hmenu ul {
+	margin: 0;
+	border: 0 none;
+	padding: 0;
+	width: 300px;
+	list-style: none;
+	display: none;
+	position: absolute;
+	top: 28px;
+	left: 0;
+}
+
+ul#hmenu ul:after {
+	clear: both;
+	display: block;
+	font: 1px/0px serif;
+	content: ".";
+	height: 0;
+	visibility: hidden;
+}
+
+ul#hmenu ul li {
+	width: 300px;
+	float: left;
+	display: block !important;
+	display: inline;
+}
+
+/* Main Menu */
+ul#hmenu a {
+	border: 0px;
+	padding: 0 6px;
+	float: none !important;
+	float: left;
+	display: block;
+	background: #565766;
+	color: #ddd;
+	font: bold 12px/28px Verdana, Arial;
+	text-decoration: none;
+	height: auto !important;
+	height: 1%;
+}
+
+/* Main Menu Hover */
+ul#hmenu a:hover,
+ul#hmenu li:hover a,
+ul#hmenu li.iehover a {
+	background: #444;
+	color: #fff;
+}
+
+/* Second Menu */
+ul#hmenu li:hover li a,
+ul#hmenu li.iehover li a {
+	border-top: 1px solid #333;
+	float: none;
+	background: #565766;
+	color: #fff;
+}
+
+/* Second Menu Hover */
+ul#hmenu li:hover li a:hover,
+ul#hmenu li:hover li:hover a,
+ul#hmenu li.iehover li a:hover,
+ul#hmenu li.iehover li.iehover a {
+	border-top: 1px solid #000;
+	background: #444; /*808298;*/
+	color: #fff;
+}
+
+ul#hmenu ul ul {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 300px;
+}
+
+ul#hmenu li:hover ul ul,
+ul#hmenu li.iehover ul ul {
+	display: none;
+}
+
+ul#hmenu li:hover ul,
+ul#hmenu ul li:hover ul,
+ul#hmenu li.iehover ul,
+ul#hmenu ul li.iehover ul {
+	display: block;
+}
+/* =============
+===== /menu ====
+================*/
+
+
+/* =============
+===== modal ====
+================*/
+#modal-mailme-content{
+	display: none;
+	height: 96%;
+	width: 96%;
+}
+#mailmeframe{
+	/*background-color: #BBB;*/
+	border: 0;
+	height: 100%;
+	width: 100%;
+}
+
+/*
+ * SimpleModal Basic Modal Dialog
+ * http://www.ericmmartin.com/projects/simplemodal/
+ * http://code.google.com/p/simplemodal/
+ *
+ * Copyright (c) 2010 Eric Martin - http://ericmmartin.com
+ *
+ * Licensed under the MIT license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *
+ * Revision: $Id: basic.css 257 2010-07-27 23:06:56Z emartin24 $
+ */
+
+#basic-modal-content {display:none;}
+
+/* Overlay */
+#simplemodal-overlay {background-color:#000; cursor:wait;}
+
+/* Container */
+#simplemodal-container {height:460px; width:600px; color:#bbb; background-color:#333; border:2px solid #444; padding:5px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -o-border-radius: 10px;
+        border-radius: 10px;
+}
+#simplemodal-container .simplemodal-data {padding:8px;}
+#simplemodal-container code {background:#141414; border-left:3px solid #65B43D; color:#bbb; display:block; font-size:12px; margin-bottom:12px; padding:4px 6px 6px;}
+#simplemodal-container a {color:#ddd;}
+#simplemodal-container a.modalCloseImg {background:url(../pic/x.png) no-repeat; width:25px; height:29px; display:inline; z-index:3200; position:absolute; top:-15px; right:-16px; cursor:pointer;}
+#simplemodal-container h3 {color:#84b8d9;}
+/* =============
+===== /modal ===
+================*/
+
+/* =============
+==== mailme ====
+================*/
+
+
+/* =============
+==== /mailme ===
+================*/

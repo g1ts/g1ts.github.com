@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content title="">
+	<text>
+		<p><![CDATA[
+		<i style="font-size: 10px;"><b>При необходимости более детальную информацию вы можете получить по почте: <a href='mailto:work@g1ts.net'>work@g1ts.net</a> или <a href='mailto:g1ts.work@ya.ru'>g1ts.work@ya.ru</a>.</b>
+		<br/>(в письме обязательно указывайте ваше ФИО, должность и информацю о организации которую представляете)</i>
+		]]></p>
+		<p><![CDATA[
+		<table><tbody>
+			<tr><td><b>Имя: </b></td><td>Владимир С. Сусев</td></tr>
+			<tr><td><b>Год рождения:</b></td><td>1984</td></tr>
+			<tr><td><b>Email: </b></td><td><span><a href="mailto:work@g1ts.net">work@g1ts.net</a>, <a href="mailto:g1ts.work@ya.ru">g1ts.work@ya.ru</a></span></td></tr>
+			<tr><td><b>Сайт-визитка:</b></td><td><a href="http://g1ts.net">http://g1ts.net</a></td></tr>
+			<tr><td><b>Skype:</b></td><td>g1ts.net</td></tr>
+			<tr><td><b>XMPP (JabberID): </b></td><td><span style="display: block;">g1ts.work@jabber.ru, g1ts.work@jabber.org</span></td></tr>
+		</tbody></table>
+		]]></p>
+	</text>
+	<features>
+		<group title="Образование" type="listKV">
+			<feature title="Университет" value='Национальный исследовательский университет "МИФИ"'/>
+			<feature title="Дата окончания" value='20 июня 2010'/>
+			<feature title="Квалификация" value='Инженер'/>
+			<feature title="Специальность" value='Вычислительные машины, комплексы, системы и сети'/>
+			<group title="Дополнительное образование (Курсы intuit.ru)" type="list">
+				<feature title='' value=""><![CDATA[<a href="http://www.intuit.ru/department/pl/javapl/">"Программирование на Java"</a>]]></feature>
+				<feature title='' value=""><![CDATA[<a href="http://www.intuit.ru/department/pl/plphp/">"Язык программирования PHP"</a>]]></feature>
+				<feature title='' value=""><![CDATA[<a href="http://www.intuit.ru/department/pl/php5/">"Введение в программирование на PHP5"</a>]]></feature>
+				<feature title='' value=""><![CDATA[<a href="http://www.intuit.ru/department/internet/htmlbasics/">"Основы работы с HTML"</a>]]></feature>
+				<feature title='' value=""><![CDATA[<a href="http://www.intuit.ru/department/internet/htmlintro/">"Введение в HTML"</a>]]></feature>
+			</group>
+			<group title="Языки" type="listKV">
+				<feature title="Русский" value="родной"/>
+				<feature title="Английский" value="чтение документации"/>
+			</group>
+		</group>
+		<group title="Трудовой стаж" type="text">
+			<feature title="" value="До окончания университета работал лаборантом в лаборатории вычислительной техники кроме основных обязанностей занимался администрированием (win me/xp/2003, Linux Ubuntu/Debian) и разработкой простого ПО"/>
+			<feature title="" value="В настоящее время работаю программистом. Занимаюсь разработкой ПО для внутренних нужд организации (фактически являюсь единственным работником занятым разработкой ПО)."/>
+		</group>
+		<group title="Навыки" type="list">
+			<group title="Языки программирования, технологии, фреймворки, etc." type="list">
+				<feature title="Активно использую и изучаю" value="Java (Servlets, JSP, Hibernate, SmartGWT, GWT)"/>
+				<feature title="Имею некоторые знания и опыт использования" value="PHP, JavaScript (jQuery, AJAX), XML, HTML, CSS, C#, С, C++"/>
+			</group>
+			<group title="Среды разработки" type="list">
+				<feature title="" value="Основная на данный момент - Eclipse IDE for Java EE Developers"/>
+				<feature title="" value="Довольно часто использую - Visual Studio Express"/>
+				<feature title="" value="Имею некоторый опыт использования - Borland C++ Builder"/>
+			</group>
+			<group title="Имею некоторый опыт использования и администрирования" type="list">
+				<feature title="" value="СУБД MySQL"/>
+				<feature title="" value="Систем контроля версий (SVN, Git)"/>
+				<feature title="" value="Систем управления проектами и отслеживания ошибок (Trac)"/>
+				<feature title="" value="Веб-сервера Apache"/>
+				<feature title="" value="Контейнера сервлетов Apache Tomcat"/>
+				<feature title="" value="CMS Drupal"/>
+				<feature title="" value="CMS WordPress"/>
+			</group>
+			<group title="Операционные системы" type="list">
+				<feature title="" value="Опытный пользователь ОС Linux и Windows"/>
+				<feature title="" value="Навыки администрирования ОС Linux (Debian, Ubuntu, Gentoo) и Windows (XP, 2003)"/>
+			</group>			
+		</group>	
+		<group title="Предпочтения" type="listKV">
+			<feature title="Направления работы" value="разработка веб-приложений, сайтов, прикладного ПО"/>
+			<feature title="Наиболее интересны проекты связанные с" value="ИИ, нейронными сетями, генетическими алгоритмами, кибернетикой, психологией, социологией etc."/>
+		</group>
+	</features>
+</content>

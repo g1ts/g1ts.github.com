@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content> <!--title="Перевод сайтов с самописной CMS на CMS WordPress">-->
+	<text>
+		<p>На основе имеющихся сайтов разработаны визуально похожие шаблоны поддерживающие виджеты и меню, установлены плагины, перенесено содержимое страниц исходных сайтов с сохранением перекрёстных ссылок.</p>
+		<p></p>
+	</text>
+	<features>
+		<group title="Основные характеристики разработки" type="listKV">
+			<feature title="Год" value="2011"/>
+			<feature title="Продолжительность" value="около недели"/>
+			<feature title="Язык" value="PHP"/>
+			<feature title="Количество страниц" value="более 120 страниц с перкрёстными ссылками и формами обратной связи"/>
+		</group>	
+		<group title="Основные использованные плагины (сторонние)" type="list">
+			<feature title="Contact Form 7" value=""/>
+			<feature title="Dagon Design Sitemap Generator" value=""/>
+			<feature title="Google XML Sitemaps" value=""/>
+			<feature title="Really Simple CAPTCHA" value=""/>
+			<feature title="RusToLat" value=""/>
+			<feature title="WP Page Numbers" value=""/>
+			<feature title="WP Super Cache" value=""/>
+		</group>
+		<group title="Языки, технологии, инструменты, etc." type="list">
+			<feature title="PHP" value=""/>
+			<feature title="JavaScript" value=""/>
+			<feature title="Google Maps API" value=""/>
+			<feature title="HTML" value=""/>
+			<feature title="CSS" value=""/>
+		</group>
+	</features>
+	<images>
+		<topimage mini="mini.jpg" full="full.png"/>
+		<set title="">
+			<group title="Скриншоты" height="135" width="200">
+				<image mini="mini.jpg" full="full.png"/>
+				<image mini="mini/1.jpg" full="full/1.png"/>
+				<image mini="mini/2.jpg" full="full/2.png"/>
+				<image mini="mini/3.jpg" full="full/3.png"/>
+				<image mini="mini/4.png" full="full/4.png"/>
+				<image mini="mini/5.png" full="full/5.png"/>
+				<image mini="mini/6.png" full="full/6.png"/>
+				<image mini="mini/7.png" full="full/7.png"/>
+				<image mini="mini/8.png" full="full/8.png"/>
+				<image mini="mini/9.png" full="full/9.png"/>
+			</group>
+		</set>
+	</images>
+</content>

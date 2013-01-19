@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content> <!--title="Разработка сайта на CMS WordPress по шаблону">-->
+	<text>
+		<p>На основе html шаблона разработан визуально похожий шаблон для CMS WordPress поддерживающий виджеты и меню, установлены плагины и добавлено несколько страниц контента.</p>
+	</text>
+	<features>
+		<group title="Основные характеристики разработки" type="listKV">
+			<feature title="Год" value="2011"/>
+			<feature title="Продолжительность" value="два дня"/>
+			<feature title="Язык" value="PHP"/>
+		</group>	
+		<group title="Основные использованные плагины (сторонние)" type="list">
+			<feature title="Google XML Sitemaps" value=""/>
+			<feature title="RusToLat" value=""/>
+			<feature title="WP Super Cache" value=""/>
+			<feature title="SEO Title Tag" value=""/>
+			<feature title="WP-Paginate" value=""/>
+		</group>
+		<group title="Языки, технологии, инструменты, etc." type="list">
+			<feature title="PHP" value=""/>
+			<feature title="JavaScript" value=""/>
+			<feature title="Google Maps API" value=""/>
+			<feature title="HTML" value=""/>
+			<feature title="CSS" value=""/>
+		</group>
+	</features>
+	<images>
+		<topimage mini="mini.jpg" full="full.png"/>
+		<set title="">
+			<group title="Скриншоты" height="135" width="200">
+				<image mini="mini.jpg" full="full.png"/>
+				<image mini="mini/1.jpg" full="full/1.png"/>
+			</group>
+		</set>
+	</images>
+</content>
