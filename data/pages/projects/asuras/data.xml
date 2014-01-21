@@ -6,14 +6,8 @@
 		</p>
 	</text>
 	<features>
-		<group title="Основные характеристики проекта" type="listKV">
-			<feature title="Язык разработки" value="C# 3.5"/>
-			<feature title="Среда разработки" value="Microsoft Visual Studio 2008 Express"/>
-			<feature title="Время разработки" value="Продолжительность: 2-3 месяца"/>
-			<feature title="Начало разработки" value="осень 2009"/>
-			<feature title="Всего строк кода" value="около 10000 (в т.ч. описания форм)"/>
-		</group>	
 		<group title="Некоторые использованные технологии, решения, etc." type="list">
+			<feature title="C# 3.5" value=""/>
 			<feature title="WinForms" value=""/>
 			<feature title="SQLite" value=""/>
 			<feature title="XML" value=""/>

@@ -8,7 +8,7 @@
 		<post id="16" title="Перевод сайтов на CMS WordPress" dir="pages/projects/pti/" xmlcontent="data.xml?v=2">
 			<tizer title="Перевод сайтов с самописной CMS на CMS WordPress">
 				<image mini="mini.jpg" full="full.png" height="135" width="200"/>
-				<text>Перевод сайта с самописной CMS на CMS WordPress
+				<text>Перенос сайтов на CMS WordPress
 				</text>
 			</tizer>
 		</post>
@@ -27,29 +27,44 @@
 		<post id="3" title="АСПЗ" dir="pages/projects/aspz/" xmlcontent="data.xml">
 			<tizer title="АСПЗ">
 				<image mini="mini.jpg" full="full.png"/>
-				<text>Автоматизированная система тестирования. Позволяет управлять тестовыми материалами и вспомогательными данными необходимыми для проведения тестирований, организовывать и проводить тестирования и на основе их результатов формировать отчёты.</text>
+				<text>Автоматизированная система тестирования для оценки качества усвоения программного материала студентами.</text>
 			</tizer>
 		</post>
 		<post id="5" title="Интернет-магазин/визитка + модули" dir="pages/projects/shop1/" xmlcontent="data.xml">
 			<tizer title="Интернет-магазин/визитка + модули">
 				<image mini="mini.jpg" full="full.png" height="148" width="200"/>
 				<text>
-					<![CDATA[Интернет-магазин/визитка компании «Алгоритм».<br/>Сайт работает под управлением CMS (CMF) Drupal, магазин реализован на основе модуля Ubercart. Для импорта списка товаров (изначально выгружаемого из 1С в последствии формируемого программой <a href="#p/1">PlC</a>) в магазин был разработан модуль импорта. Также для сайта мной были созданы простая система управления заявками на выполнение работ, несколько не сложных модулей и темизаций.]]>
+					Сайти визитка на CMS Drupal + Интернет-магазин на основе модуля Ubercart.
 				</text>
 			</tizer>
 		</post>
 		<post id="4" title="Сайт-визитка" dir="pages/projects/this/" xmlcontent="data.xml">
 			<tizer title="Сайта-визитка (этот сайт)">
 				<image mini="mini.jpg" full="full.jpg" height="150" width="200"/>
-				<text>Сайт для представления информации обо мне и моих работах потенциальным работодателям.</text>
+				<text>Личный сайт-визитка для размещения портфолио и т.п.</text>
 			</tizer>
 		</post>
+		
+		<post id="17" title="Информирование об успеваемости" dir="pages/projects/brs/" xmlcontent="data.xml">
+			<tizer title="Сайт информирования об успеваемости">
+				<image mini="mini.png" full="full.png" height="194" width="175"/>
+				<text>Сайт для информирования студентов и их родителей об успеваемости.</text>
+			</tizer>
+		</post>
+		<post id="18" title="Система тестирования" dir="pages/projects/testing/" xmlcontent="data.xml">
+			<tizer title="Автоматизированная система тестирования (Yii, Bootstrap, Knockout)">
+				<image mini="mini.png" full="full.png" height="137" width="208"/>
+				<text>Система создана для применения в процессе оценки качества усвоения программного материала студентами. 
+		    Разработана с учётом новых требований и замечаний к предидущей версии.</text>
+			</tizer>
+		</post>
+		
 	</section>
 	<section id="2" title="Резюме" type="post">
 		<post id="7" title="Резюме" dir="pages/resume/" xmlcontent="data.xml">
 		</post>
 	</section>
-	<section id="3" title="Документы" submenu="true">
+	<section id="3" title="Дипломы и т.п." submenu="true">
 		<post id="8" title="Диплом НИЯУ МИФИ" dir="pages/docs/diplvuz/" xmlcontent="data.xml">
 			<tizer title="Диплом 'Научного исследовательского ядерного университета 'МИФИ'">
 				<image mini="mini.jpg" full="full.jpg"/>

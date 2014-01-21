@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content title="Сайт информирования об успеваемости">
+	<text>
+		<p>
+		  Предназначен для информирования студентов и их родителей об успеваемости.
+		</p>
+	</text>
+	<features>
+		<group title="Языки, технологии, инструменты, etc." type="list">
+			<feature title="PHP" value=""/>
+			<feature title="фреймворк Yii" value=""/>
+			<feature title="jQuery" value=""/>
+			<feature title="HTML" value=""/>
+			<feature title="CSS" value=""/>
+		</group>
+	</features>
+	<images>
+		<topimage mini="mini.png" full="full.png" height="130" width="197"/>
+		<set title="Скриншоты">
+			<group title="Интерфейс администратора" height="130" width="197">
+				<image mini="mini/a1.png" full="full/a1.png" title=""/>
+				<image mini="mini/a2.png" full="full/a2.png" title=""/>
+				<image mini="mini/a3.png" full="full/a3.png" title=""/>
+				<image mini="mini/a4.png" full="full/a4.png" title=""/>
+				<image mini="mini/a5.png" full="full/a5.png" title=""/>
+				<image mini="mini/r1.png" full="full/r1.png" title=""/>
+				<image mini="mini/r2.png" full="full/r2.png" title=""/>
+				<image mini="mini/r3.png" full="full/r3.png" title=""/>
+			</group>
+		</set>
+	</images>
+<!-- 
+	<videos>
+		<group title="Инструкции для пользователей">
+			<video type="youtube" vid="ylLzyHk54Z0"/>
+		</group>
+		<group title="Инструкции для администратора">
+			<video type="youtube" vid="ylLzyHk54Z0"/>
+		</group>
+	</videos>
+-->
+</content>

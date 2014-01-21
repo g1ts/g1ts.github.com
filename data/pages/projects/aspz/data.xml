@@ -9,14 +9,8 @@
 		</p>
 	</text>
 	<features>
-		<group title="Основные характеристики проекта" type="listKV">
-			<feature title="Язык разработки" value="Java"/>
-			<feature title="Среда разработки" value="Eclipse"/>
-			<feature title="Время разработки" value="3-4 месяца + различные периодические доработки"/>
-			<feature title="Начало разработки" value="весна 2010"/>
-			<feature title="Строк кода" value="коло 14000"/>
-		</group>	
 		<group title="Некоторые технические подробности реализации (использованные технологии, решения, etc.)" type="list">
+			<feature title="Язык разработки" value="Java"/>
 			<feature title="JSP, сервлеты" value=""/>
 			<feature title="SmartGWT, AJAX" value=""/>
 			<feature title="Hibernate (MySQL)" value=""/>

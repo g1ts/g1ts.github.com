@@ -5,18 +5,20 @@
 		<h1>Сайт-визитка Владимира Сусева</h1><img src="me_300.png" style="width: 200px; float: right;"/>
 		]]></p>
 		<p>Здесь можно найти описания некоторых моих работ, информацию о полученных дипломах/сертификатах/удостоверениях относящихся к областям моей профессиональной деятельности, свежую версию резюме и мои контактные данные.</p>
-		<p>В первую очередь сайт предназначен для потенциальных работодателей.</p>
 		<p></p>
 		<p><![CDATA[<h3>Коротко обо мне</h3>]]></p>
 		<p><![CDATA[
 Занимаюсь в основном разработкой веб-сайтов, модулей для CMS, веб-приложений и прикладного ПО.
-<br/>В работе использую:
+<br/>Имею опыт испльзования:
 <ul>
-<li>PHP (ООП, CMS Drupal, CMS WordPress, Yii Framework)</li>
-<li>JavaScript (jQuery, Node.js)</li>
-<li>HTML, CSS, XML</li>
+<li>PHP (Yii Framework, CMS WordPress, CMS Drupal) (создание сайтов, модулей, тем, etc.)</li>
+<li>Node.js (Express, Connect, )</li>
+<li>Фронтенд JavaScript (jQuery, Knockout, )</li>
+<li>Twitter Bootstrap</li>
+<li>HTML, HTML5, CSS</li>
 <li>Java (SmartGWT, GWT, Servlets, JSP, Hibernate)</li>
-<li>C#</li>
+<li>C# (под десктоп)</li>
+<li>ОС Linux (Debian, Ubunt, Gentoo)</li>
 </ul>
 подробнее в <a href="#p/7">резюме</a>.
 		]]></p>

@@ -5,27 +5,22 @@
 		<p></p>
 	</text>
 	<features>
-		<group title="Основные характеристики разработки" type="listKV">
-			<feature title="Год" value="2011"/>
-			<feature title="Продолжительность" value="около недели"/>
-			<feature title="Язык" value="PHP"/>
-			<feature title="Количество страниц" value="более 120 страниц с перкрёстными ссылками и формами обратной связи"/>
-		</group>	
-		<group title="Основные использованные плагины (сторонние)" type="list">
-			<feature title="Contact Form 7" value=""/>
-			<feature title="Dagon Design Sitemap Generator" value=""/>
-			<feature title="Google XML Sitemaps" value=""/>
-			<feature title="Really Simple CAPTCHA" value=""/>
-			<feature title="RusToLat" value=""/>
-			<feature title="WP Page Numbers" value=""/>
-			<feature title="WP Super Cache" value=""/>
-		</group>
 		<group title="Языки, технологии, инструменты, etc." type="list">
 			<feature title="PHP" value=""/>
+			<feature title="WordPress" value=""/>
 			<feature title="JavaScript" value=""/>
 			<feature title="Google Maps API" value=""/>
 			<feature title="HTML" value=""/>
 			<feature title="CSS" value=""/>
+		    <group title="Основные использованные плагины (сторонние)" type="list">
+			    <feature title="Contact Form 7" value=""/>
+			    <feature title="Dagon Design Sitemap Generator" value=""/>
+			    <feature title="Google XML Sitemaps" value=""/>
+			    <feature title="Really Simple CAPTCHA" value=""/>
+			    <feature title="RusToLat" value=""/>
+			    <feature title="WP Page Numbers" value=""/>
+			    <feature title="WP Super Cache" value=""/>
+		    </group>
 		</group>
 	</features>
 	<images>
