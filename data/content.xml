@@ -76,6 +76,16 @@
 				]]></text>
 			</tizer>
 		</post>
+		<post id="14" title='Курсы от преподавателей Стэнфорда' dir="pages/docs/stan/" xmlcontent="data.xml">
+		  <tizer title="Онлайн курсы от преподавателей Стэнфорда">
+  		  <image mini="mini.jpg" full="full.jpg" height="208" width="186"/>
+        <text><![CDATA[
+        <b>Курсы:</b> <a href="https://www.udacity.com/course/cs271">"Introduction to Artificial Intelligence"</a>, <a href="http://db-class.org">"Introduction to Databases"</a>, <a href="http://ml-class.org">"Machine Learning"</a>
+        <br/><b>Авторы:</b> Sebastian Thrun, Peter Norvig, Jennifer Widom, Andrew Ng
+        <br/><b>Срок обучения:</b> 1.5-2месяца (конец 2011 года)
+				        ]]></text>
+		  </tizer>
+		</post>
 		<post id="9" title='Intuit - Программирование на Java' dir="pages/docs/intuit/javapl/" xmlcontent="data.xml">
 			<tizer title="Удостоверение по программе 'Программирование на Java' (www.intuit.ru)">
 				<image mini="mini_cert_ru.jpg" full="cert_ru.jpg"/>
@@ -134,5 +144,6 @@
 				]]></text>
 			</tizer>
 		</post>
+	
 	</section>
 </content>
