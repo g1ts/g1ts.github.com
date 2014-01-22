@@ -15,7 +15,7 @@
 		</group>
 	</features>
 	<images>
-		<topimage mini="mini.png" full="full.png" height="130" width="197"/>
+		<topimage mini="mini.png" full="full.png" height="194" width="175"/>
 		<set title="Скриншоты">
 			<group title="Интерфейс администратора" height="130" width="197">
 				<image mini="mini/a1.png" full="full/a1.png" title=""/>

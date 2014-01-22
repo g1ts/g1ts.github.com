@@ -8,17 +8,26 @@
 		<p></p>
 		<p><![CDATA[<h3>Коротко обо мне</h3>]]></p>
 		<p><![CDATA[
-Занимаюсь в основном разработкой веб-сайтов, модулей для CMS, веб-приложений и прикладного ПО.
-<br/>Имею опыт испльзования:
+Занимаюсь в основном разработкой веб-сайтов, веб-приложений, модулей для CMS и т.п. Переодически пишу приложения для ОС Android, дополнения для браузеров (FF и Chrome) и прикладное ПО.
+<br/><br/>Имею опыт испльзования:
 <ul>
-<li>PHP (Yii Framework, CMS WordPress, CMS Drupal) (создание сайтов, модулей, тем, etc.)</li>
-<li>Node.js (Express, Connect, )</li>
-<li>Фронтенд JavaScript (jQuery, Knockout, )</li>
-<li>Twitter Bootstrap</li>
-<li>HTML, HTML5, CSS</li>
-<li>Java (SmartGWT, GWT, Servlets, JSP, Hibernate)</li>
-<li>C# (под десктоп)</li>
-<li>ОС Linux (Debian, Ubunt, Gentoo)</li>
+  <li>Фронтенд:</li>
+  <ul>
+    <li>JavaScript (jQuery, Knockout, etc.)</li>
+    <li>HTML, HTML5, CSS</li>
+    <li>Twitter Bootstrap</li>
+  </ul>
+  <li>Бекенд:</li>
+  <ul>
+    <li>PHP (Yii Framework, CMS WordPress, CMS Drupal) (создание сайтов, модулей, тем, etc.)</li>
+    <li>Node.js (Express, Connect, Socket.IO, Mongoose, etc.)</li>
+    <li>Java (SmartGWT, GWT, Servlets, JSP, Hibernate)</li>
+  </ul>
+  <li>C#, C (под десктоп)</li>
+  <li>ОС Linux (Debian, Ubunt, Gentoo)</li>
+  <li>MySql, MongoDB</li>
+  <li>Git, Mercurial</li>
+  <li>Apache, Nginx, Apache Tomcat</li>
 </ul>
 подробнее в <a href="#p/7">резюме</a>.
 		]]></p>

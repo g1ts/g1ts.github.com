@@ -15,6 +15,7 @@
 			<tr><td><b>XMPP (JabberID): </b></td><td><span style="display: block;">g1ts.work@jabber.ru, g1ts.work@jabber.org</span></td></tr>
 		</tbody></table>
 		]]></p>
+	  <p>Занимаюсь в основном разработкой веб-сайтов, веб-приложений, модулей для CMS и т.п. Переодически пишу приложения для ОС Android, дополнения для браузеров (FF и Chrome) и прикладное ПО.</p>
 	</text>
 	<features>
 		<group title="Образование" type="listKV">
@@ -35,36 +36,30 @@
 			</group>
 		</group>
 		<group title="Трудовой стаж" type="text">
-			<feature title="" value="До окончания университета работал лаборантом в лаборатории вычислительной техники кроме основных обязанностей занимался администрированием (win me/xp/2003, Linux Ubuntu/Debian) и разработкой простого ПО"/>
+			<feature title="" value="До окончания университета работал лаборантом в лаборатории вычислительной техники, кроме основных обязанностей занимался администрированием (win me/xp/2003, Linux Ubuntu/Debian) и разработкой ПО для локальной автоматизации"/>
 			<feature title="" value="В настоящее время работаю программистом. Занимаюсь разработкой ПО для внутренних нужд организации (фактически являюсь единственным работником занятым разработкой ПО)."/>
 		</group>
 		<group title="Навыки" type="list">
 			<group title="Языки программирования, технологии, фреймворки, etc." type="list">
-				<feature title="Активно использую и изучаю" value="Java (Servlets, JSP, Hibernate, SmartGWT, GWT)"/>
-				<feature title="Имею некоторые знания и опыт использования" value="PHP, JavaScript (jQuery, AJAX), XML, HTML, CSS, C#, С, C++"/>
+				<feature title="Активно использую и изучаю" value="JavaScript, Node.js, PHP, HTML, HTML5, CSS"/>
+				<feature title="Имею некоторый опыт использования" value="Java (Servlets, JSP, Hibernate, SmartGWT, GWT), C#, С, C++"/>
 			</group>
 			<group title="Среды разработки" type="list">
-				<feature title="" value="Основная на данный момент - Eclipse IDE for Java EE Developers"/>
+				<feature title="" value="Основная на данный момент - Eclipse IDE"/>
 				<feature title="" value="Довольно часто использую - Visual Studio Express"/>
 				<feature title="" value="Имею некоторый опыт использования - Borland C++ Builder"/>
 			</group>
 			<group title="Имею некоторый опыт использования и администрирования" type="list">
-				<feature title="" value="СУБД MySQL"/>
-				<feature title="" value="Систем контроля версий (SVN, Git)"/>
+				<feature title="" value="СУБД: MySQL, MongoDB"/>
+				<feature title="" value="VCS: Git, Mercurial, SVN"/>
+				<feature title="" value="CMS/CMF/frameworks: WordPress, Drupal, Yii"/>
 				<feature title="" value="Систем управления проектами и отслеживания ошибок (Trac)"/>
-				<feature title="" value="Веб-сервера Apache"/>
-				<feature title="" value="Контейнера сервлетов Apache Tomcat"/>
-				<feature title="" value="CMS Drupal"/>
-				<feature title="" value="CMS WordPress"/>
+				<feature title="" value="Веб-серверов: Apache, Nginx, Apache Tomcat"/>
 			</group>
 			<group title="Операционные системы" type="list">
 				<feature title="" value="Опытный пользователь ОС Linux и Windows"/>
 				<feature title="" value="Навыки администрирования ОС Linux (Debian, Ubuntu, Gentoo) и Windows (XP, 2003)"/>
 			</group>			
 		</group>	
-		<group title="Предпочтения" type="listKV">
-			<feature title="Направления работы" value="разработка веб-приложений, сайтов, прикладного ПО"/>
-			<feature title="Наиболее интересны проекты связанные с" value="ИИ, нейронными сетями, генетическими алгоритмами, кибернетикой, психологией, социологией etc."/>
-		</group>
 	</features>
 </content>

@@ -6,9 +6,9 @@
 	</section>
 	<section id="1" title="Проекты" submenu="true">
 		<post id="16" title="Перевод сайтов на CMS WordPress" dir="pages/projects/pti/" xmlcontent="data.xml?v=2">
-			<tizer title="Перевод сайтов с самописной CMS на CMS WordPress">
+			<tizer title="Перенос сайтов на CMS WordPress">
 				<image mini="mini.jpg" full="full.png" height="135" width="200"/>
-				<text>Перенос сайтов на CMS WordPress
+				<text>Перевод сайтов с самописной CMS на CMS WordPress
 				</text>
 			</tizer>
 		</post>
