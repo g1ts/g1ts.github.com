@@ -10,7 +10,7 @@
         <link href="css/app.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
         <script src="js/angular.min.js" type="text/javascript"></script>
-        <script src="js/angular-animate.min.js" type="text/javascript"></script>
+        <!-- <script src="js/angular-animate.min.js" type="text/javascript"></script> -->
         <script src="js/angular-route.min.js" type="text/javascript"></script>
         <script src="js/ui-bootstrap-tpls-0.11.0.min.js" type="text/javascript"></script>
         <script src="js/app.js" type="text/javascript"></script>
@@ -28,7 +28,7 @@
 	</script> 
     </head>
     <body ng-controller="MainCtrl">
-        <nav class="navbar navbar-default navbar-fixed-top userSelectNone ng-hide" role="navigation" ng-show="loaded" ng-controller="MainMenu">
+        <nav class="navbar navbar-default navbar-fixed-top userSelectNone" role="navigation" ng-controller="MainMenu">
             <div class="container">
                 <div data-spy="affix" class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-6">
@@ -51,26 +51,22 @@
                 </div>
             </div>
         </nav>
-        <main role="main" ng-hide="loading" class="ng-hide animate-hide">
+        <main role="main" ng-show="isSuccessful" class="ng-hide animate-hide">
             <div class="container">
                 <div id="main-view" ng-view=""></div>
             </div>
         </main>
-        <!-- <div class="loading animate-hide" ng-hide="!loading">
+        <div class="loading animate-hide" ng-show="isLoading">
             <div class="container">
                 Loading...
-                <div class="progress" >
-                    <div class="progress-bar progress-bar-success progress-bar-striped active"  role="progressbar">
-                        <span class="sr-only"></span>
-                    </div>
-                </div>
+                <progressbar animate="true" class="progress-striped active" value="percentLoaded" type="success"><b>{{percentLoaded}}%</b></progressbar>
             </div>
-        </div> -->
-        <div class="ng-hide" ng-show="loaded">
+        </div>
+        <div>
             <contacts></contacts>
             <glider></glider>
         </div>
-        <div class="footer ng-hide" ng-show="loaded">
+        <div class="footer">
             <div class="container text-right">
                 <p class="text-muted">В.С. Сусев, 2014г. v2.0</p>
             </div>
