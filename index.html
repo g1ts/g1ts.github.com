@@ -27,7 +27,7 @@
 	  })();
 	</script> 
     </head>
-    <body ng-controller="MainCtrl">
+    <body ng-controller="MainCtrl" ng-switch="loading">
         <nav class="navbar navbar-default navbar-fixed-top userSelectNone" role="navigation" ng-controller="MainMenu">
             <div class="container">
                 <div data-spy="affix" class="navbar-header">
@@ -51,12 +51,12 @@
                 </div>
             </div>
         </nav>
-        <main role="main" ng-show="isSuccessful" class="ng-hide animate-hide">
+        <main role="main" ng-switch-when="isLoaded" class="animate-hide">
             <div class="container">
                 <div id="main-view" ng-view=""></div>
             </div>
         </main>
-        <div class="loading animate-hide" ng-show="isLoading">
+        <div class="loading animate-hide" ng-switch-when="isLoading">
             <div class="container">
                 Loading...
                 <progressbar animate="true" class="progress-striped active" value="percentLoaded" type="success"><b>{{percentLoaded}}%</b></progressbar>

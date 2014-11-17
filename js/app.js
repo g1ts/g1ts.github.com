@@ -88,7 +88,6 @@ var app = angular.module('mainModule', ['ngRoute', 'ui.bootstrap'])
                 }
                 $scope.$emit('preloadImages', imageLocations);
 
-
                 $scope.openDocDetailsModal = function (doc) {
                     //$log.info("openDocDetailsModal");
                     var modalInstance = $modal.open({
@@ -105,27 +104,29 @@ var app = angular.module('mainModule', ['ngRoute', 'ui.bootstrap'])
             }])
         .controller('MainCtrl', ['$scope', '$routeParams', '$rootScope', '$location', '$http', '$modal', 'preloader',
             function ($scope, $routeParams, $rootScope, $location, $http, $modal, preloader) {
-                $scope.isLoading = false;
-                $scope.isSuccessful = true;
+                $scope.$on("$routeChangeSuccess", function () {
+                    setTimeout(function() {
+                        $(window).scrollTop(0);  
+                    }, 0);
+                });
+                $scope.loading = 'isLoaded';
                 $scope.percentLoaded = 100;
                 var preloadedImages = [];
                 $scope.$on('preloadImages', function (event, _imageLocations) {
                     var imageLocations = [];
                     for (var i in _imageLocations)
                         if (preloadedImages.indexOf(_imageLocations[i]) === -1)
-                            imageLocations.push(_imageLocations[i])
+                            imageLocations.push(_imageLocations[i]);
                     // Preload the images; then, update display when returned.
                     if (imageLocations.length > 0) {
-                        $scope.isLoading = true;
-                        $scope.isSuccessful = false;
+                        $scope.loading = 'isLoading';
                         $scope.percentLoaded = 0;
                         preloader.preloadImages(imageLocations).then(
                                 function handleResolve(imageLocations) {
                                     // Loading was successful.
-                                    $scope.isLoading = false;
-                                    $scope.isSuccessful = true;
+                                    $scope.loading = 'isLoaded';
                                     for (var i in imageLocations)
-                                        preloadedImages.push(imageLocations[i])
+                                        preloadedImages.push(imageLocations[i]);
                                     //console.info("Preload Successful");
                                 },
                                 function handleReject(imageLocation) {
@@ -135,8 +136,7 @@ var app = angular.module('mainModule', ['ngRoute', 'ui.bootstrap'])
                                     //console.error("Image Failed", imageLocation);
                                     //console.info("Preload Failure");
                                     // TODO
-                                    $scope.isLoading = false;
-                                    $scope.isSuccessful = true;
+                                    $scope.loading = 'isLoaded';
                                 },
                                 function handleNotify(event) {
                                     $scope.percentLoaded = event.percent;
@@ -312,7 +312,7 @@ function getScrollWidth() {
     return scrollWidth;
 }
 
-
+// http://www.bennadel.com/blog/2597-preloading-images-in-angularjs-with-promises.htm
 app.factory(
         "preloader",
         function ($q, $rootScope) {
