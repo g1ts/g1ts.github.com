@@ -1,0 +1,14 @@
+<h1 class="title lifted">Сайт-визитка Владимира Сусева</h1>
+<div class="row">
+    <div class="col-md-offset-2 col-md-8 col-sm-offset-0">
+        <div class="row index userSelectNone">
+            <div class="col-md-4 col-sm-4 text-center" ng-repeat="thumbnail in thumbnails">
+                <a href="{{thumbnail.href}}" class="thumbnail">
+                    <img ng-src="{{thumbnail.thumbnail}}" alt="img">
+                    <h4>{{thumbnail.label}}</h4>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<techlist img="{{techListData.img}}" count="{{techListData.count}}" size="{{techListData.size}}" />

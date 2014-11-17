@@ -1,0 +1,57 @@
+<div>
+    <!-- Button trigger modal -->
+    <button id="mailMeBtn" class="btn btn-primary btn-lg hidden-print" data-placement="left" title="Обратная связь" ng-click="openContactsModal()" >
+        <span class="glyphicon glyphicon-envelope"></span>
+    </button>
+
+    <!-- Modal -->
+    <script type="text/ng-template" id="contactsModalContent.html">
+                <form role="form" action="http://main-ip.ru/mail.php"  method="post">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" ng-click="cancel()"><span aria-hidden="true">&times;</span><span class="sr-only">Закрыть</span></button>
+                        <h4 class="modal-title" id="myModalLabel">ОБРАТНАЯ СВЯЗЬ</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Можете отправить мне сообщение, воспользовавшись этой формой, либо самостоятельно отправив e-mail на адрес <a href="mailto:admin@g1ts.net">admin@g1ts.net</a>
+                        </p>
+                        <input type="hidden" name="zagol_soob" value="" />
+                        <div class="form-group">
+                            <label for="senderName">Ваше имя</label>
+                            <input name="name" id="senderName" type="text" class="form-control" maxlength="50" placeholder="Введите ваше имя" >
+                        </div>
+                        <div class="form-group hidden">
+                            <label for="sendMailTo">Кому</label>
+                            <input name="e_mail" id="sendMailTo" type="email" class="form-control" maxlength="50" value="admin@g1ts.net" disabled="disabled" >
+                        </div>
+                        <div class="form-group">
+                            <label for="mailText">Сообщение</label>
+                            <textarea name="text" id="mailText" class="form-control" rows="3" placeholder="Введите текст сообщения"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label>Число на картинке</label>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <input name="captcha" type="text" class="form-control" maxlength="12" placeholder="Введите число с картинки" />
+                                </div>
+                                <div class="col-sm-6" id="mailCaptcha">
+                                    <a href="http://main-ip.ru/" target="_blank"><img border="0" ng-src="{{imageUrl}}" /></a> 
+                                    <button type="button" class="btn btn-default" ng-click="reloadCAPTCHA()">
+                                        <span class="glyphicon glyphicon-refresh"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="col-sm-6">
+                            <button type="button" class="btn btn-default center-block" data-dismiss="modal" ng-click="cancel()">Закрыть</button>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="submit" class="btn btn-primary center-block" value="Отправить" />
+                        </div>
+                    </div>
+                </form>
+    </script>
+</div>
+

@@ -1,0 +1,67 @@
+{
+    "groups": [
+        {
+            "title": "Дипломы",
+            "docs": [{
+                "title": "Диплом НИЯУ МИФИ",
+                "description": "Диплом о высшем образовании по специальности 'Вычислительные машины, комплексы, системы и сети'",
+                "img": "img/doc/MEPhI.jpg",
+                "preview": "img/doc/pre_MEPhI.jpg"
+            }]
+        },{
+            "title": "Онлайн курсы от преподавателей Стэнфорда",
+            "docs": [{
+                "title": "Introduction to Artificial Intelligence",
+                "link": "https://www.udacity.com/course/cs271",
+                "description": "This course covers the basics and applications of AI, including: machine learning, probabilistic reasoning, robotics, computer vision, and natural language processing.",
+                "img": "img/doc/stanford/AI.jpg",
+                "preview": "img/doc/stanford/pre_AI.jpg"
+            },{
+                "title": "Introduction to Databases",
+                "link": "http://db-class.org/",
+                "description": "'This course covers database design and the use of database management systems for applications. It includes extensive coverage of the relational model, relational algebra, and SQL. It also covers XML data including DTDs and XML Schema for validation, and the query and transformation languages XPath, XQuery, and XSLT. The course includes database design in UML, and relational design principles based on dependencies and normal forms. Many additional key database topics from the design and application-building perspective are also covered: indexes, views, transactions, authorization, integrity constraints, triggers, on-line analytical processing (OLAP), JSON, and emerging NoSQL systems. Working through the entire course provides comprehensive coverage of the field, but most of the topics are also well-suited for 'a la carte' learning.",
+                "img": "img/doc/stanford/DB.jpg",
+                "preview": "img/doc/stanford/pre_DB.jpg"
+            },{
+                "title": "Machine Learning",
+                "link": "http://ml-class.org/",
+                "description": "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI).",
+                "img": "img/doc/stanford/ML.jpg",
+                "preview": "img/doc/stanford/pre_ML.jpg"
+            }]
+        },{
+            "title": "Онлайн курсы от университета ИНТУИТ",
+            "docs": [{
+                "title": "Язык программирования PHP",
+                "link": "http://www.intuit.ru/department/pl/plphp/",
+                "description": "Курс посвящен изучению основ языка PHP. Акцент делается на практическое применение полученных навыков.",
+                "img": "img/doc/intuit/php.jpg",
+                "preview": "img/doc/intuit/pre_php.jpg"
+            },{
+                "title": "Введение в программирование на PHP5",
+                "link": "http://www.intuit.ru/department/pl/php5/",
+                "description": "Курс посвящен изучению языка программирования PHP версии 5.",
+                "img": "img/doc/intuit/php5.jpg",
+                "preview": "img/doc/intuit/pre_php5.jpg"
+            },{
+                "title": "Программирование на Java",
+                "link": "http://www.intuit.ru/department/pl/javapl/",
+                "description": "Курс лекций посвящен современному и мощному языку программирования Java. В его рамках дается вводное изложение принципов ООП, необходимое для разработки на Java, основы языка, библиотеки для работы с файлами, сетью, для построения оконного интерфейса пользователя (GUI) и др.",
+                "img": "img/doc/intuit/java.jpg",
+                "preview": "img/doc/intuit/pre_java.jpg"
+            },{
+                "title": "Основы работы с HTML",
+                "link": "http://www.intuit.ru/department/internet/htmlbasics/",
+                "description": "Курс посвящен практике применения языка гипертекстовой разметки HTML. На большом количестве примеров рассматриваются основные конструкции языка, приемы разметки и связь с другими инструментами разработки WEB-страниц.",
+                "img": "img/doc/intuit/html_base.jpg",
+                "preview": "img/doc/intuit/pre_html_base.jpg"
+            },{
+                "title": "Введение в HTML",
+                "link": "http://www.intuit.ru/department/internet/htmlintro/",
+                "description": "Курс посвящен изучению языка гипертекстовой разметки HTML. Рассматриваются основные конструкции языка, приемы разметки и связь с другими инструментами разработки WEB-страниц.",
+                "img": "img/doc/intuit/html_intro.jpg",
+                "preview": "img/doc/intuit/pre_html_intro.jpg"
+            }]
+        }
+    ]
+}

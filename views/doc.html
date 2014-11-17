@@ -1,0 +1,30 @@
+<!-- <h1 class="title lifted">Дипломы</h1> -->
+<div class="row" ng-repeat="group in groups">
+    <div class="col-md-4 col-sm-4" ng-repeat="doc in group.docs">
+        <div class="curved-vt-2">
+            <div class="docThumbnail">
+                <a class="thumbnail" data-toggle="modal" data-target="#docModal" ng-click="openDocDetailsModal(doc)">
+                    <img ng-src="{{doc.preview}}" alt=""/>
+                </a>
+                <p class="text-center">
+                    <a ng-if="doc.link" href="{{doc.link}}" target="_blank" ng-bind="doc.title"></a>
+                    <span ng-if="!doc.link" ng-bind="doc.title"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<script type="text/ng-template" id="docDetailsModalContent.html">
+            <div class="modal-header">
+                <button type="button" class="close" ng-click="cancel()" ><span aria-hidden="true">&times;</span><span class="sr-only">Закрыть</span></button>
+                <h4 class="modal-title" id="docModalLabel" ng-bind="currentDoc.title"></h4>
+            </div>
+            <div class="modal-body text-center">
+                <div class="thumbnail">
+                    <img ng-src="{{currentDoc.img}}" alt=""/>
+                </div>
+                <div class="text-left" ng-bind="currentDoc.description"></div>
+            </div>
+</script>

@@ -1,0 +1,165 @@
+{
+    "groups": [
+        {
+            "title": "Веб",
+            "items": [{
+                "title": "Перевод сайтов на CMS WordPress",
+                "description": "Перенесены сайты заказчика на CMS WordPress с сохранением всех данных и адресов страниц.",
+                "imgs": [
+                    {
+                        "img":"img/proj/certificates/1.png",
+                        "description": ""
+                    },{
+                        "img":"img/proj/certificates/2.png",
+                        "description": ""
+                    },{
+                        "img":"img/proj/certificates/3.png",
+                        "description": ""
+                    },{
+                        "img":"img/proj/certificates/4.png",
+                        "description": ""
+                    },{
+                        "img":"img/proj/certificates/5.png",
+                        "description": ""
+                    },{
+                        "img":"img/proj/certificates/6.png",
+                        "description": ""
+                    }
+                ],
+                "preview": "img/proj/certificates/mini.jpg"
+            },{
+                "title": "Интернет-магазин Drupal + Ubercart",
+                "description": "Интернет-магазин + сайт-визитка под управлением CMS Drupal, магазин реализован на основе модуля Ubercart. Для сайта также был написан модуль импорта списка товаров выгруженных из 1С.",
+                "imgs": [
+                    {
+                        "img":"img/proj/alg/1.png",
+                        "description": ""
+                    },{
+                        "img":"img/proj/alg/2.png",
+                        "description": ""
+                    }
+                ],
+                "preview": "img/proj/alg/mini.jpg"
+            },{
+                "title": "Личный сайт-визитка",
+                "description": "",
+                "imgs": [
+                    {
+                        "img":"img/proj/this/1.png",
+                        "description": "v2"
+                    },{
+                        "img":"img/proj/this/2.png",
+                        "description": "v1"
+                    }
+                ],
+                "preview": "img/proj/this/mini1.jpg"
+            },{
+                "title": "Сайт информирования об успеваемости",
+                "description": "Сайт для информирования студентов и их родителей об успеваемости.",
+                "imgs": [
+                    {
+                        "img":"img/proj/brs/a5.png",
+                        "description": ""
+                    },{
+                        "img":"img/proj/brs/r1.png",
+                        "description": ""
+                    },{
+                        "img":"img/proj/brs/r2.png",
+                        "description": ""
+                    },{
+                        "img":"img/proj/brs/r3.png",
+                        "description": ""
+                    },{
+                        "img":"img/proj/brs/a1.png",
+                        "description": ""
+                    },{
+                        "img":"img/proj/brs/a2.png",
+                        "description": ""
+                    }
+                ],
+                "preview": "img/proj/brs/mini.png"
+            },{
+                "title": "Cистема тестирования",
+                "description": "Система создана для применения в процессе оценки качества усвоения программного материала студентами.",
+                "imgs": [
+                    {
+                        "img":"img/proj/testing/testing_1.png",
+                        "description": ""
+                    },{
+                        "img":"img/proj/testing/admin_2.png",
+                        "description": ""
+                    },{
+                        "img":"img/proj/testing/admin_4.png",
+                        "description": ""
+                    },{
+                        "img":"img/proj/testing/admin_5.png",
+                        "description": ""
+                    },{
+                        "img":"img/proj/testing/admin_6.png",
+                        "description": ""
+                    },{
+                        "img":"img/proj/testing/testing_start.png",
+                        "description": ""
+                    },{
+                        "img":"img/proj/testing/testing_2.png",
+                        "description": ""
+                    },{
+                        "img":"img/proj/testing/admin_1.png",
+                        "description": ""
+                    }
+                ],
+                "preview": "img/proj/testing/mini.png"
+            }]
+        },{
+            "title": "Десктоп",
+            "items": [{
+                "title": "Конвертор прайс-листов",
+                "description": "Программа предназначена для создания прайс-листов и файлов специального формата (для загрузки в интернет-магазин) на основе прайс-листов поставщиков товаров.",
+                "imgs": [
+                    {
+                        "img":"img/proj/PLC/start.png",
+                        "description": ""
+                    },{
+                        "img":"img/proj/PLC/open_price.png",
+                        "description": ""
+                    },{
+                        "img":"img/proj/PLC/price.png",
+                        "description": ""
+                    },{
+                        "img":"img/proj/PLC/preview_xls.png",
+                        "description": ""
+                    },{
+                        "img":"img/proj/PLC/preview_xml.png",
+                        "description": ""
+                    }
+                ],
+                "preview": "img/proj/PLC/mini.jpg"
+            },{
+                "title": "Система автоматизации аттестации",
+                "description": "Система автоматизации проведения аттестации студентов. Позволяет управлять данными необходимыми для проведения аттестации, формировать бланки контроля, учитывать результаты и создавать на их основе отчёты.",
+                "imgs": [
+                    {
+                        "img":"img/proj/asuras/1.png",
+                        "description": ""
+                    },{
+                        "img":"img/proj/asuras/2.png",
+                        "description": ""
+                    },{
+                        "img":"img/proj/asuras/3.png",
+                        "description": ""
+                    },{
+                        "img":"img/proj/asuras/4.png",
+                        "description": ""
+                    },{
+                        "img":"img/proj/asuras/5.png",
+                        "description": ""
+                    },{
+                        "img":"img/proj/asuras/6.png",
+                        "description": ""
+                    }
+                ],
+                "preview": "img/proj/asuras/mini.jpg"
+            }]
+        }
+    ]
+}

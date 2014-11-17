@@ -1,0 +1,41 @@
+
+<div class="row" ng-repeat="group in groups">
+    <div class="col-md-4 col-sm-4" ng-repeat="item in group.items">
+        <div class="curved-vt-2">
+            <div class="docThumbnail">
+                <a class="thumbnail" ng-click="openItemDetailsModal(item)">
+                    <img ng-src="{{item.preview}}" alt=""/>
+                </a>
+                <p class="text-center">
+                    <a ng-if="doc.link" href="{{item.link}}" target="_blank" ng-bind="item.title"></a>
+                    <span ng-if="!item.link" ng-bind="item.title"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<script type="text/ng-template" id="itemDetailsModalContent.html">
+            <div class="modal-header">
+                <button type="button" class="close" ng-click="cancel()"><span aria-hidden="true">&times;</span><span class="sr-only">Закрыть</span></button>
+                <h4 class="modal-title" id="docModalLabel" ng-bind="currentItem.title"></h4>
+            </div>
+            <div class="modal-body text-center">
+                <div class="thumbnail">
+                    <div ng-controller="CarouselCtrl">
+                     <div style="">
+                       <carousel interval="myInterval">
+                         <slide ng-repeat="img in currentItem.imgs" active="slide.active">
+                           <img ng-src="{{img.img}}" style="margin:auto;">
+                           <div class="carousel-caption">
+                             <p>{{img.description}}</p>
+                           </div>
+                         </slide>
+                       </carousel>
+                     </div>
+                   </div>
+                </div>
+                <div class="text-left" ng-bind="currentItem.description"></div>
+            </div>
+</script>
