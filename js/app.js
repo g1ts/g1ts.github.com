@@ -47,7 +47,6 @@ var app = angular.module('mainModule', ['ngRoute', 'ui.bootstrap'])
                 $scope.groups = data.groups;
                 $scope.currentItem = data.groups[0].items[1];
                 $scope.openItemDetailsModal = function (item) {
-                    //$log.info("openDetailsModal");
                     var modalInstance = $modal.open({
                         templateUrl: 'itemDetailsModalContent.html'
                         , size: 'lg'
@@ -89,7 +88,6 @@ var app = angular.module('mainModule', ['ngRoute', 'ui.bootstrap'])
                 $scope.$emit('preloadImages', imageLocations);
 
                 $scope.openDocDetailsModal = function (doc) {
-                    //$log.info("openDocDetailsModal");
                     var modalInstance = $modal.open({
                         templateUrl: 'docDetailsModalContent.html'
                         , size: 'lg'
@@ -102,8 +100,8 @@ var app = angular.module('mainModule', ['ngRoute', 'ui.bootstrap'])
                     });
                 };
             }])
-        .controller('MainCtrl', ['$scope', '$routeParams', '$rootScope', '$location', '$http', '$modal', 'preloader',
-            function ($scope, $routeParams, $rootScope, $location, $http, $modal, preloader) {
+        .controller('MainCtrl', ['$scope', '$log', 'preloader',
+            function ($scope, $log, preloader) {
                 $scope.$on("$routeChangeSuccess", function () {
                     setTimeout(function() {
                         $(window).scrollTop(0);  
@@ -127,14 +125,11 @@ var app = angular.module('mainModule', ['ngRoute', 'ui.bootstrap'])
                                     $scope.loading = 'isLoaded';
                                     for (var i in imageLocations)
                                         preloadedImages.push(imageLocations[i]);
-                                    //console.info("Preload Successful");
                                 },
                                 function handleReject(imageLocation) {
                                     // Loading failed on at least one image.
                                     /*$scope.isLoading = false;
                                     $scope.isSuccessful = false;*/
-                                    //console.error("Image Failed", imageLocation);
-                                    //console.info("Preload Failure");
                                     // TODO
                                     $scope.loading = 'isLoaded';
                                 },
@@ -144,6 +139,7 @@ var app = angular.module('mainModule', ['ngRoute', 'ui.bootstrap'])
                         );
                     }
                 });
+                $log.info(welcomeMsg);
             }])
         .controller('MainMenu', ['$scope', '$rootScope', '$location',
             function ($scope, $rootScope, $location) {
@@ -163,9 +159,8 @@ var app = angular.module('mainModule', ['ngRoute', 'ui.bootstrap'])
         .controller('MyRouterCtrl', ['$scope', '$routeParams', '$location', function ($scope, $routeParams, $location) {
                 $scope.location = $location.path();
             }])
-        .controller('techlistCtrl', ["$scope", "$element", "$attrs", "$log",
-            function ($scope, $element, $attrs, $log) {
-                //$log.info($attrs.count);
+        .controller('techlistCtrl', ["$scope", "$element", "$attrs", 
+            function ($scope, $element, $attrs) {
                 var r = [];
                 for (var i = 0; i < $scope.techListData.count; i++)
                     r.push(i);
@@ -173,7 +168,6 @@ var app = angular.module('mainModule', ['ngRoute', 'ui.bootstrap'])
                 $scope.getSpriteStyle = function (n) {
                     return {'background-position': '0 ' + (n * $scope.techListData.size) + 'px;'};
                 };
-                //$log.info($scope);
             }
         ])
         .directive('techlist', function () {
@@ -208,7 +202,6 @@ var app = angular.module('mainModule', ['ngRoute', 'ui.bootstrap'])
                     scope: {},
                     link: function ($scope, element, attrs) {
                         $scope.openContactsModal = function () {
-                            //$log.info("openContactsModal");
                             var modalInstance = $modal.open({
                                 templateUrl: 'contactsModalContent.html'
                                 , controller: ['$scope', '$modalInstance', function ($scope, $modalInstance) {
@@ -216,7 +209,6 @@ var app = angular.module('mainModule', ['ngRoute', 'ui.bootstrap'])
                                         $scope.imageUrl = imageUrl;
                                         $scope.reloadCAPTCHA = function () {
                                             $scope.imageUrl = imageUrl + "?r=" + Date.now();
-                                            //console.log(arguments, this);
                                         };
                                         $scope.cancel = function () {
                                             $modalInstance.dismiss('cancel');
@@ -455,3 +447,28 @@ app.factory(
             return(Preloader);
         }
 );
+
+var welcomeMsg = "\
+-------------------------------------------------------------------------------------------------\n\
+-------------------------------------------------------------------------------------------------\n\
+\n\
+                            .-') _     .-')           .-') _   ('-.   .-') _\n\
+                           (  OO) )   ( OO ).        ( OO ) )_(  OO) (  OO) )\n\
+            ,----.    .---./     '._ (_)---\\_)   ,--./ ,--,'(,------./     '._\n\
+           '  .-./-')/_   ||'--...__)/    _ |    |   \\ |  |\\ |  .---'|'--...__)\n\
+           |  |_( O- )|   |'--.  .--'\\  :` `.    |    \\|  | )|  |    '--.  .--'\n\
+           |  | .--, \\|   |   |  |    '..`''.)   |  .     |/(|  '--.    |  |\n\
+          (|  | '. (_/|   |   |  |   .-._)   \\   |  |\\    |  |  .--'    |  |\n\
+           |  '--'  | |   |   |  |   \\       /.-.|  | \\   |  |  `---.   |  |\n\
+            `------'  `---'   `--'    `-----' `-'`--'  `--'  `------'   `--'\n\
+\n\
+   __    _   _\n\
+  ( /   /   //                   _/_                      /                                   /\n\
+   / / /_  // _, __ _ _ _   _    /  __   _ _ _   __  ,   /_  __ _ _ _   _   ,_   __,  _,  _  /\n\
+  (_/_/(/_(/_(__(_)/ / / /_(/_  (__(_)  / / / /_/ (_/_  / /_(_)/ / / /_(/__/|_)_(_/(_(_)_(/_'\n\
+                                                   /                       /|         /|   o\n\
+                                                  '                       (/         (/\n\
+\n\
+-------------------------------------------------------------------------------------------------\n\
+-------------------------------------------------------------------------------------------------\n\
+"
