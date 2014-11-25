@@ -245,7 +245,7 @@ var app = angular.module('mainModule', ['ngRoute', 'ui.bootstrap'])
                         if (frame >= frames) {
                             frame = 0;
                             if (left >= $(document).width() - 6)
-                                left = startLeft;
+                                left = 0;
                             $(element).css({'left': left += 2});
                         } else
                         if (frame === 2) {
