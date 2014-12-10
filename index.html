@@ -25,7 +25,17 @@
 	    ga.src = ('https:' === document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	  })();
-	</script> 
+	</script>
+        <script> 
+            var $buoop = {c:2}; 
+            function $buo_f(){ 
+              var e = document.createElement("script"); 
+              e.src = "//browser-update.org/update.js"; 
+              document.body.appendChild(e);
+            };
+            try {document.addEventListener("DOMContentLoaded", $buo_f,false);}
+            catch(e){window.attachEvent("onload", $buo_f);}
+        </script>
     </head>
     <body ng-controller="MainCtrl" ng-switch="loading">
         <nav class="navbar navbar-default navbar-fixed-top userSelectNone" role="navigation" ng-controller="MainMenu">
