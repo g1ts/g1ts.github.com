@@ -17,7 +17,7 @@
                                 $('[productid='+i+']').text(res[i]);
                         }
                 });*/
-                $.getJSON(q).done(function(data) {
+                $.getJSON(q).done(function(res) {
                   $("#result" ).text(JSON.stringify(res,null,2) );
                   for(var i in res){
                           $('[productid='+i+']').text(res[i]);
