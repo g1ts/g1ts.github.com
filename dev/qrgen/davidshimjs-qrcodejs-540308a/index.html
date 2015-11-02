@@ -9,27 +9,59 @@
 </head>
 <body>
 <input id="text" type="text" value="ids: 12345 54321 ..... 12345 54321 ..... 12345 54321 ..... 12345 54321 ....." style="width:80%" /><br />
-<div id="qrcode" style="width:100px; height:100px; margin-top:15px;"></div>
+<div id="qrcode" style="margin:15px;"></div>
+<div>
+  <h2>Demo codes</h2>
+  <div>
+    <h3>single</h3>
+    <div id="qrcode1" style="margin:15px;"></div>
+  </div>
+  <div>
+    <h3>multi</h3>
+    <div id="qrcode2" style="float:left; margin:15px;"></div>
+    <div id="qrcode3" style="float:left; margin:15px;"></div>
+  </div>
+  <div>
+    <h3>items</h3>
+    <div id="qrcodeItem1" style="float:left; margin:15px;"></div>
+    <div id="qrcodeItem2" style="float:left; margin:15px;"></div>
+  </div>
+</div>
 
 <script type="text/javascript">
-var qrcode = new QRCode(document.getElementById("qrcode"), {
-	width : 300,
-	height : 300
-});
 
-function makeCode () {		
-	var elText = document.getElementById("text");
-	
-	if (!elText.value) {
-		alert("Input a text");
-		elText.focus();
-		return;
-	}
-	
-	qrcode.makeCode(elText.value);
+
+function makeCode (id, value) {
+  var qrcode = new QRCode(document.getElementById(id), {
+	  width : 200,
+	  height : 200,
+    correctLevel : QRCode.CorrectLevel.L // L-7% M-15% Q-25% H-30%
+  });
+  qrcode.makeCode(value);
 }
 
-makeCode();
+var elText = document.getElementById("text");
+elText.focus();
+makeCode("qrcode", elText.value);
+/*
+  1,1       - только 1ин код
+  magId     - ид магазинаа
+  itemId1,1 - (ид товара),(количество товара)
+*/
+makeCode("qrcode1", 'priznak codeID,magId 1,1 itemID1,1 itemID2,1 itemID3,2 itemID4,5');
+/*
+  2,1     - (количество кодов - 2),(номер кода - 1)
+  magId     - ид магазинаа
+  itemId1,1 - (ид товара),(количество товара)
+*/
+makeCode("qrcode2", 'priznak codeID,magId 2,1 itemID1,1 itemID2,1 itemID3,2 itemID4,5');
+makeCode("qrcode3", 'priznak codeID 2,2 itemID6,1');
+
+makeCode("qrcodeItem1", 'priznak1 itemID1');
+makeCode("qrcodeItem2", 'priznak1 itemID2');
+
+
+
 
 $("#text").
 	on("blur", function () {
@@ -37,7 +69,7 @@ $("#text").
 	}).
 	on("keydown", function (e) {
 		if (e.keyCode == 13) {
-			makeCode();
+			makeCode("qrcode", this.value);
 		}
 	});
 </script>
