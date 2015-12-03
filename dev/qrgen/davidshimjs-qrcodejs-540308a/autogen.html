@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="qrcode.js"></script>
+</head>
+<body>
+<div>
+    correctLevel: 
+    <select id="correctLevel">
+      <option value="L">L-7%</option>
+      <option value="M">M-15%</option>
+      <option value="Q">Q-25%</option>
+      <option value="H">H-30%</option>
+    </select>
+    <button onClick="updateCode()">update</button>
+    <div id="qrcode" style="margin:15px;"></div>
+</div>
+
+<script type="text/javascript">
+
+
+function makeCode (id, value, correctLevel) {
+  document.getElementById('qrcode').innerHTML = ''
+  var qrcode = new QRCode(document.getElementById(id), {
+	  width : 300,
+	  height : 300,
+    correctLevel : correctLevel // L-7% M-15% Q-25% H-30%
+  });
+  qrcode.makeCode(value);
+}
+
+var cl = document.getElementById("correctLevel");
+
+/*
+  1,1       - только 1ин код
+  magId     - ид магазинаа
+  itemId1,1 - (ид товара),(количество товара)
+*/
+function updateCode(){
+  var correctLevel = cl.value;
+  switch(correctLevel){
+    case 'L':
+      correctLevel = QRCode.CorrectLevel.L;
+      break;
+    case 'M':
+      correctLevel = QRCode.CorrectLevel.M;
+      break;
+    case 'Q':
+      correctLevel = QRCode.CorrectLevel.Q;
+      break;
+    case 'H':
+      correctLevel = QRCode.CorrectLevel.H;
+      break;
+  }
+  var t = Math.round(Date.now()/1000);
+  var data = '{"date":'+t+',"shop":"magnit","gds": {"g1": {"a":"XXXFFR", "p":"560"}, "g2": {"a":"GGGFFR", "p":"444"}}}'
+  makeCode("qrcode", 'priznak codeID,magId 1,1 '+data, correctLevel);
+}
+updateCode();
+</script>
+</body>
