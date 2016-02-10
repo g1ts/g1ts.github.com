@@ -57,7 +57,8 @@ function updateCode(){
       break;
   }
   var t = Math.round(Date.now()/1000);
-  var data = '{"date":'+t+',"shop":"magnit","gds": {"g1": {"a":"XXXFFR", "p":"560"}, "g2": {"a":"GGGFFR", "p":"444"}}}'
+  //var data = '{"date":'+t+',"shop":"magnit","gds": {"g1": {"a":"XXXFFR", "p":"560"}, "g2": {"a":"GGGFFR", "p":"444"}}}'
+  var data = '{"date":'+t+',"shop":"magnit","gds": {"g1": {"a":"XXXFFR", "p":"560", "c":"1"}, "g2": {"a":"GGGFFR", "p":"444","c":"3"}}}'
   makeCode("qrcode", 'priznak codeID,magId 1,1 '+data, correctLevel);
 }
 updateCode();
