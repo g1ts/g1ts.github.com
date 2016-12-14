@@ -31,7 +31,7 @@ $(function(){
     function setTargetStylesVal(){
         ignoreChanges = true;
         var text = styles.local.CSSStyleSheet.cssRules[targetRulesIndex].style.cssText||'';
-        $targetStyles.val(text.replace(/;/g, ';\n'));
+        $targetStyles.val(text.replace(/; ?/g, ';\n'));
         ignoreChanges = false;
     }
     function updateTargetWidthSlider(){
